@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="14.639" tests="12" errors="5" skipped="0" failures="3">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\jpjay\IdeaProjects\restapiexample-Serenity-Week18"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\jpjay\IdeaProjects\restapiexample-Serenity-Week18"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\jpjay\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\Users\jpjay\AppData\Local\Microsoft\WindowsApps;C:\Users\jpjay\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\jpjay"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="jpjay"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test001" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="3.687">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <429>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test001(DummyRestAPICURDTest.java:39)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://dummy.restapiexample.com/api/v1/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "status": "success",
+    "data": {
+        "name": "Jason",
+        "salary": "12500",
+        "age": "65"
+    }
+}
+HTTP/1.1 429 Too Many Requests
+Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Jun 2022 22:15:19 GMT
+Display: staticcontent_sol
+Expires: Mon, 06 Jun 2022 22:15:19 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed: off
+Response: 429
+Retry-After: 15
+Server: Apache
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 429
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 57
+X-Ratelimit-Reset: 1654640134
+X-Sol: pub_site
+Content-Length: 588
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[143 [main] INFO net.serenitybdd.core.Serenity - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+456 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Dummy rest APICURD test
+520 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001
+-------------------------------------------------------------------
+520 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+]]></system-err>
+  </testcase>
+  <testcase name="test002" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="0.898">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <429>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test002(DummyRestAPICURDTest.java:50)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employee/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	employeeID=0
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 429 Too Many Requests
+Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Jun 2022 22:15:20 GMT
+Display: staticcontent_sol
+Expires: Mon, 06 Jun 2022 22:15:21 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed: off
+Response: 429
+Retry-After: 20
+Server: nginx/1.19.10
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 429
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 56
+X-Ratelimit-Reset: 1654640140
+X-Sol: pub_site
+Content-Length: 588
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[4143 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: This will create a new employee
+--------------------------------------------------------------------------
+4143 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <429>.
+4158 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test002
+-------------------------------------------------------------------
+4158 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+]]></system-err>
+  </testcase>
+  <testcase name="test003" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="1.859">
+    <error message="io.restassured.path.xml.XmlPath cannot be cast to java.lang.String" type="java.lang.ClassCastException">java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test003(DummyRestAPICURDTest.java:68)
+</error>
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://dummy.restapiexample.com/api/v1/update/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	employeeID=0
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "status": null,
+    "data": {
+        "name": "Jason_updated"
+    }
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 07 Jun 2022 22:15:21 GMT
+Display: staticcontent_sol
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Response: 200
+Server: Apache
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: pub_site
+Content-Length: 126
+
+{
+    "status": "success",
+    "data": {
+        "status": null,
+        "data": {
+            "name": "Jason_updated"
+        }
+    },
+    "message": "Successfully! Record has been updated."
+}
+Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employee/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	employeeID=0
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 429 Too Many Requests
+Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Jun 2022 22:15:22 GMT
+Display: staticcontent_sol
+Expires: Mon, 06 Jun 2022 22:15:22 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed: off
+Response: 429
+Retry-After: 22
+Server: nginx/1.19.10
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 429
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 56
+X-Ratelimit-Reset: 1654640144
+X-Sol: pub_site
+Content-Length: 588
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[5041 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: This test will get an employee by ID
+--------------------------------------------------------------------------
+5041 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <429>.
+5041 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test003
+-------------------------------------------------------------------
+5041 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+]]></system-err>
+  </testcase>
+  <testcase name="test004" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="0.899">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test004(DummyRestAPICURDTest.java:77)
+]]></failure>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://dummy.restapiexample.com/api/v1/delete/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	employeeID=0
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+Content-Type: application/json
+Date: Tue, 07 Jun 2022 22:15:23 GMT
+Display: staticcontent_sol
+Expires: Mon, 06 Jun 2022 22:15:23 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Response: 400
+Server: Apache
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 400
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: pub_site
+Content-Length: 81
+
+{
+    "status": "error",
+    "message": "Not found record",
+    "code": 400,
+    "errors": "id is empty"
+}
+]]></system-out>
+    <system-err><![CDATA[6900 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: This will Update an employee by ID
+---------------------------------------------------------------------
+6900 [main] ERROR net.serenitybdd.core.Serenity - io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+6900 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test004
+-------------------------------------------------------------------
+6900 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
+]]></system-err>
+  </testcase>
+  <testcase name="test005" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="0.832">
+    <error message="io.restassured.path.xml.XmlPath cannot be cast to java.util.List" type="java.lang.ClassCastException">java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.util.List
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test005(DummyRestAPICURDTest.java:86)
+</error>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 429 Too Many Requests
+Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Jun 2022 22:15:24 GMT
+Display: staticcontent_sol
+Expires: Mon, 06 Jun 2022 22:15:24 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed: off
+Response: 429
+Retry-After: 22
+Server: nginx/1.19.10
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 429
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 57
+X-Ratelimit-Reset: 1654640146
+X-Sol: pub_site
+Content-Length: 588
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[7799 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: This will Delete an employee by ID
+--------------------------------------------------------------------------
+7799 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <400>.
+7799 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test005
+-------------------------------------------------------------------
+7799 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
+]]></system-err>
+  </testcase>
+  <testcase name="test006" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="1.231"/>
+  <testcase name="test007" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="1.033"/>
+  <testcase name="test008" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="0.79">
+    <error message="io.restassured.path.xml.XmlPath cannot be cast to java.lang.String" type="java.lang.ClassCastException">java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test008(DummyRestAPICURDTest.java:107)
+</error>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 429 Too Many Requests
+Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Jun 2022 22:15:27 GMT
+Display: staticcontent_sol
+Expires: Mon, 06 Jun 2022 22:15:27 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed: off
+Response: 429
+Retry-After: 10
+Server: nginx/1.19.10
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 429
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 56
+X-Ratelimit-Reset: 1654640137
+X-Sol: pub_site
+Content-Length: 588
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[10895 [main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: 3. Verify if 23rd employee name is Doris Wilder
+----------------------------------------------------------------------------
+10895 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test008
+-------------------------------------------------------------------
+10895 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 8
+]]></system-err>
+  </testcase>
+  <testcase name="test009" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="1.039">
+    <error message="io.restassured.path.xml.XmlPath cannot be cast to java.lang.String" type="java.lang.ClassCastException">java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test009(DummyRestAPICURDTest.java:114)
+</error>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 429 Too Many Requests
+Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Jun 2022 22:15:28 GMT
+Display: staticcontent_sol
+Expires: Mon, 06 Jun 2022 22:15:28 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed: off
+Response: 429
+Retry-After: 9
+Server: nginx/1.19.10
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 429
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 55
+X-Ratelimit-Reset: 1654640137
+X-Sol: pub_site
+Content-Length: 588
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[11685 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: 4. Verify if message is Successfully! All records has been fetched
+---------------------------------------------------------------------
+11685 [main] ERROR net.serenitybdd.core.Serenity - io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+11685 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test009
+-------------------------------------------------------------------
+11685 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 9
+]]></system-err>
+  </testcase>
+  <testcase name="test010" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="0.765">
+    <error message="io.restassured.path.xml.XmlPath cannot be cast to java.util.List" type="java.lang.ClassCastException">java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.util.List
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test010(DummyRestAPICURDTest.java:121)
+</error>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 429 Too Many Requests
+Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Jun 2022 22:15:29 GMT
+Display: staticcontent_sol
+Expires: Mon, 06 Jun 2022 22:15:29 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed: off
+Response: 429
+Retry-After: 13
+Server: nginx/1.19.10
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 429
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 55
+X-Ratelimit-Reset: 1654640142
+X-Sol: pub_site
+Content-Length: 588
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[12724 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: 5. Verify if status is success
+---------------------------------------------------------------------
+12724 [main] ERROR net.serenitybdd.core.Serenity - io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+12724 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test010
+-------------------------------------------------------------------
+12724 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 10
+]]></system-err>
+  </testcase>
+  <testcase name="test011" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="0.759"/>
+  <testcase name="test012" classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" time="0.847"/>
+</testsuite>

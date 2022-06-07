@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Dummy rest APICURD test","This will create a new employee","FAILURE","2022-06-07T23:15:16.873+01:00[Europe/London]","0.0","3.66"
+"Dummy rest APICURD test","This test will get an employee by ID","FAILURE","2022-06-07T23:15:20.544+01:00[Europe/London]","0.0","0.9"
+"Dummy rest APICURD test","This will Delete an employee by ID","FAILURE","2022-06-07T23:15:23.301+01:00[Europe/London]","0.0","0.9"

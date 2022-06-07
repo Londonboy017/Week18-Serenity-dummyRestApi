@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Dummy rest APICURD test","2. Verify if Data[23] id is 24","SUCCESS","2022-06-07T23:15:25.032+01:00[Europe/London]","0.0","1.23"
+"Dummy rest APICURD test","3. Verify if 23rd employee name is Doris Wilder","SUCCESS","2022-06-07T23:15:26.263+01:00[Europe/London]","0.0","1.03"
+"Dummy rest APICURD test","7. Verify 6th id age is 61","SUCCESS","2022-06-07T23:15:29.891+01:00[Europe/London]","0.0","0.76"
+"Dummy rest APICURD test","8. Verify 11th id name is Jena Gaines","SUCCESS","2022-06-07T23:15:30.650+01:00[Europe/London]","0.0","0.85"
